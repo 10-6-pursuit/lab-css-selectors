@@ -12,7 +12,18 @@
   --light-slate: #a8bace;
 }
 
-h2 {
+hr {
+  background-color: darkgrey;
+  border: none;
+  height: 0.2em;
+}
+
+.heading {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body {
   color: var(--soft-white);
 }
 
@@ -22,14 +33,16 @@ h1 {
   text-shadow: 1px 1px #eeeab4;
 }
 
+h4 {
+  font-style: italic;
+}
+
 ul, a {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-
 
 .languages-list__item {
   text-align: center;
@@ -53,6 +66,8 @@ ul, a {
   padding: 2em 1em;
   margin: 1em;
   box-shadow: var(--dark-box-shadowing);
+  color: var(--soft-white);
+  text-decoration: none
 }
 
 .libraries-list__item {
@@ -82,6 +97,7 @@ h3 {
   text-decoration-style: wavy;
   text-decoration-thickness: 2px;
   color: var(--light-slate);
+  margin-left: 0.em;
 }
 
 body {
@@ -94,14 +110,26 @@ label {
   width: 10%;
 }
 
-h3 {
+h2 {
   font-size: 20px;
   font-weight: bold;
+  margin-left: 0.3em;
 }
 
-p, h4, .social-links__link {
+p {
   color: var(--soft-white);
   text-decoration: none;
+  padding: 0.5em;
+}
+
+.contact {
+  font-size: 1em;
+  font-family: Calibri;
+  font-weight: 500;
+}
+
+footer {
+  padding: 0.5em;
 }
 
 /* modified from https://www.sanwebe.com/2014/08/css-html-forms-designs */
