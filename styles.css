@@ -22,7 +22,7 @@ h1 {
   text-shadow: 1px 1px #eeeab4;
 }
 
-ul,  .social-links__item  {
+ul, a {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -31,13 +31,25 @@ ul,  .social-links__item  {
 
 
 
-.languages-list__item, .social-links__link {
+.languages-list__item {
   text-align: center;
   border: 1px solid var(--line-blue);
   border-radius: 10px;
   color: var(--line-blue);
   background-color: var(--old-brass);
   width: 30%;
+  padding: 2em 1em;
+  margin: 1em;
+  box-shadow: var(--dark-box-shadowing);
+}
+
+.social-links__link {
+  text-align: center;
+  border: 1px solid var(--line-blue);
+  border-radius: 10px;
+  color: var(--line-blue);
+  background-color: var(--old-brass);
+  width: 70%;
   padding: 2em 1em;
   margin: 1em;
   box-shadow: var(--dark-box-shadowing);
