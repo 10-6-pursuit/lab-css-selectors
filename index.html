@@ -9,22 +9,22 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
   </head>
   <body>
-    <h1>Your Name Here</h1>
-    <div class="about-me">
-      <p class="about-me__description">
-        This is a bunch of information about myself. I'm from here and there and
-        discovered my love of programming when this happened. When I'm not
-        working I'm busy doing this and that.
+    <div class="about">
+    <h1 class="about__name">Your Name Here</h1>
+    <div class="about__me">
+      <p class="about__me__description">
+        I'm a software engineer that has a passion for AI and the future it can bring to evolutionaize humankind. I have a passion for the medical field and it's growth in integerating AI and technological tools.
       </p>
+      </div>
     </div>
 
-    <img src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" />
+    <img src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" class ="about__profile"/>
 
     <div class="skills">
       <h2 class="skills__title">Here are some of my Skills!</h2>
 
       <h3 class="skills__category">Languages</h3>
-      <ul class="skills__list languages-list">
+      <ul class="skills__list  languages-list">
         <li class="languages-list__item">JavaScript</li>
         <li class="languages-list__item">SQL</li>
         <li class="languages-list__item">HTML5</li>
@@ -65,13 +65,13 @@
       </li>
     </ul>
 
-    <footer>
+    <footer class="contact">
       <h2>Contact Me</h2>
-      <div>
+      <div class="contact__info">
         <h4>Email me at:</h4>
-        <a href="#" target="_top">hello@pursuit.org</a>
+        <a href="#" target="_top" class="contact__email">hello@pursuit.org</a>
       </div>
-      <form>
+      <form class="__feedback">
         <label>Provide feedback:</label>
         <input type="text" name="" value="" />
         <input type="submit" name="submit" value="submit" />
