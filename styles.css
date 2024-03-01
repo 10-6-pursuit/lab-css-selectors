@@ -41,7 +41,7 @@
   border: 1px solid var(--line-blue);
   border-radius: 10px;
   color: var(--line-blue);
-  background-color: var(--old-brass);
+  background-color: var(--old-brass); 
   width: 30%;
   padding: 2em 1em;
   margin: 1em;
@@ -91,7 +91,7 @@ body {
   width: 10%;
 }
 
-body {
+h1 {
   font-size: 20px;
   font-weight: bold;
 }
