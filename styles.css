@@ -14,7 +14,7 @@
 
 .about__me__description,
 .skills__title,
-.hardest__bug,
+.hardest-bug,
 .contact {
   color: var(--soft-white);
 }
@@ -25,7 +25,7 @@
   text-shadow: 1px 1px #eeeab4;
 }
 
-.social__links,
+.social-links,
 .skills__list
   {
   list-style-type: none;
@@ -34,8 +34,8 @@
   justify-content: space-around;
 }
 
-.skills__list__item,
-.social__links__item
+.languages-list__item,
+.social-links__item
   {
   text-align: center;
   border: 1px solid var(--line-blue);
@@ -48,7 +48,7 @@
   box-shadow: var(--dark-box-shadowing);
 }
 
-.libraries__list__item
+.libraries-list__item
 {
   text-align: center;
   border: 1px solid var(--line-blue);
@@ -86,7 +86,7 @@ body {
 
 
 
-.social__links__item
+.social-links__item
 {
   width: 10%;
 }
