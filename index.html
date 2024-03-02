@@ -4,72 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Intro</title>
+    <title>Steven Rouse</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
   </head>
+
   <body>
-    <h1>Your Name Here</h1>
+    <h1 class="heading">Steven Rouse</h1>
+    <h4 class="occupation heading">Software Engineer / Project Manager</h4>
+    <hr/>
     <div class="about-me">
       <p class="about-me__description">
-        This is a bunch of information about myself. I'm from here and there and
-        discovered my love of programming when this happened. When I'm not
-        working I'm busy doing this and that.
+        Full-stack Engineer | React | PostgreSQL | Python | NLP
       </p>
     </div>
 
-    <img src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" />
+    <img src="./assets/Headshot.png" alt="Profile photo"/>
 
     <div class="skills">
       <h2 class="skills__title">Here are some of my Skills!</h2>
 
       <h3 class="skills__category">Languages</h3>
       <ul class="skills__list languages-list">
-        <li class="languages-list__item">JavaScript</li>
+        <li class="languages-list__item">Front-end Dev</li>
         <li class="languages-list__item">SQL</li>
-        <li class="languages-list__item">HTML5</li>
+        <li class="languages-list__item">Java</li>
         <li class="languages-list__item">CSS3</li>
+        <li class="languages-list__item">Python</li>
       </ul>
 
       <h3 class="skills__category">Libraries</h3>
       <ul class="skills__list libraries-list">
-        <li class="libraries-list__item">React</li>
+        <li class="libraries-list__item">Next.Js</li>
         <li class="libraries-list__item">Node</li>
         <li class="libraries-list__item">Bootstrap</li>
       </ul>
     </div>
-
+    <hr/>
     <div class="hardest-bug">
       <h2 class="hardest-bug__title">Hardest Bug So Far</h2>
       <p class="hardest-bug__description">
-        My hardest bug I ever came across was this infinite loop I couldn't
-        escape.
+        The hardest bug I encounter was in the final stages of creating a "Tetris" Clone in python. The bug was not creating a function to slow the game speed down. I did evenually figure that out over a few days later.
       </p>
       <p class="hardest-bug__solution">
-        I came up with a totally sick solution though by doing ...
-      </p>
+        I was using a library called Pygame, from there i was controlling the game loop with a frame rate (using pygame.time.Clock().tick(fps)). Lowering the FPS (frames per second) value to slow down the game.
     </div>
 
+    <hr/>
+    <h2 class="links">Check out these links...</h2>
     <ul class="social-links">
       <li class="social-links__item">
-        <a href="#" class="social-links__link">github link</a>
+        <a href="https://github.com/ROUSE-prog" class="social-links__link" target="_blank">github link</a>
       </li>
       <li class="social-links__item">
-        <a href="#" class="social-links__link">LinkedIn link</a>
+        <a href="https://www.linkedin.com/stevenrouse" class="social-links__link" target="_blank">LinkedIn link</a>
       </li>
       <li class="social-links__item">
-        <a href="#" class="social-links__link">Angel list link</a>
+        <a href="https://leetcode.com/Rouse-Prog" class="social-links__link" target="_blank">Leet Code</a>
       </li>
       <li class="social-links__item">
-        <a href="#" class="social-links__link">Pursuit link</a>
+        <a href="https://www.pursuit.org/fellowship" class="social-links__link" target="_blank">Pursuit</a>
       </li>
     </ul>
-
+    
+    <hr/>
     <footer>
       <h2>Contact Me</h2>
       <div>
-        <h4>Email me at:</h4>
-        <a href="#" target="_top">hello@pursuit.org</a>
+        <p class="contact">Email: stevenr2049@gmail.com</p>
+        <p class="contact">Phone: +1 (267)-418-7607</p>
       </div>
       <form>
         <label>Provide feedback:</label>
