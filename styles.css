@@ -22,7 +22,7 @@
   text-shadow: 1px 1px #eeeab4;
 }
 
-.skills__list {
+.skills__list,.social-links{
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +76,7 @@ body{
   font-family: sans-serif;
 }
 
-p {
+.social-links__item--width{
   width: 10%;
 }
 
