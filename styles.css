@@ -22,14 +22,14 @@ h1 {
   text-shadow: 1px 1px #eeeab4;
 }
 
-p {
+.skills__list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.languages-list__item {
+.languages-list__item, .social-links__item {
   text-align: center;
   border: 1px solid var(--line-blue);
   border-radius: 10px;
